@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(39, 38, 38);
+}
+
+.container{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+.form-control{
+    width: 400px;
+    box-shadow: 0 0 5px rgb(0,0, 03);
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+   
+}
+.form-control input{
+    width: 100%;
+    padding: 17px 14px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.form-control span{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+/*--------------- filter---------------  */
+
+.dropDownCon{
+    width: 200px;
+    position: relative;
+}
+.dropDown{
+    width: 100%;
+    padding: 17px 14px;
+    box-shadow: 0 0 5px rgb(0, 0, 03);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 15px;
+    background: white;
+}
+.dropDown p{
+    letter-spacing: 0.5px;
+}
+.i{
+    cursor: pointer;
+}
+.drop{
+    position: absolute;
+    box-shadow: 0 0 5px rgb(0, 0, 03);
+    top: 4rem;
+    padding: 17px 14px;
+    width: 100%;
+    background: white;
+    cursor: pointer;
+    
+}
+.showDrop{
+    display: none;
+    background: white;
+
+}
+
+.countries{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.country{
+    min-height: 350px;
+    box-shadow: 0 0 5px rgb(0, 0, 03);
+    width: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 30px;
+    background: white;
+}
+
+.country-image{
+    height: 250px;
+}
+.country-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.country-info{
+    padding: 20px 17px;
+}
+.country-info h5{
+    padding: 8px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.country-info p{
+    letter-spacing: 1px;
+}
+
+.country-info p>strong{
+    font-weight: 600;
+}
