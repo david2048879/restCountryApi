@@ -21,3 +21,4 @@ bonus points).
 you could implement (this is for bonus points)
 Below is a sample UI that could give you insight but feel free to implement a UI of your liking,
 you can add icons or any other elements you wish.
+![UI](https://user-images.githubusercontent.com/91059058/162451373-732d4b6e-73c9-4d82-8bdc-b85e620a3db6.PNG)
